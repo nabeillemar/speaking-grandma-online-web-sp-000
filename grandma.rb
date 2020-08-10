@@ -12,3 +12,5 @@ else phrase == "I LOVE YOU GRANDMA"
   return 'I LOVE YOU TOO PUMPKIN!'
 end 
 end 
+
+puts speak_to_grandma("I LOVE YOU GRANDMA")
