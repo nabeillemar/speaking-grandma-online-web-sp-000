@@ -4,12 +4,12 @@ def speak_to_grandma (phrase)
 # Whatever you say to grandma, she should respond with
 return "HUH?! SPEAK UP, SONNY!"
 # unless you shout it (type in all capitals).
-elsif phrase.upcase 
+elsif phrase == "I LOVE YOU GRANDMA"
+  return "I LOVE YOU TOO PUMPKIN!"
 # If you shout, she can hear you (or at least she thinks so) 
 # and yells back
-return "NO, NOT SINCE 1938!"
-else phrase == "I LOVE YOU GRANDMA"
-  return 'I LOVE YOU TOO PUMPKIN!'
+else phrase == phrase.upcase 
+  return "NO, NOT SINCE 1938!"
 end 
 end 
 
